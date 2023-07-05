@@ -4,24 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML com JS</title>
+    <title>Exercicio HTML com JS</title>
     <link rel="stylesheet" href="./main.css" />
 </head>
 <body>
     <div class="container">
-        <h1>EBAC Banking</h1>
-        <h2>Depósitos</h2>
-        <form id="form-deposito">
-            <input type="text" id="nome-beneficiario" required placeholder="Nome completo do beneficiário" />
-            <p class = "error-message">
-                O nome precisa ser completo
-            </p>
-            <input type="number" id="numero-conta" required placeholder="Número da conta" />
-            <input type="number" id="valor-deposito" required placeholder="Valor" />
-            <textarea placeholder="Descrição (opcional)" id="descricao"></textarea>
-            <button id="btn-depositar" type="submit">Depositar</button>
+        <h1>Atividade Módulo 7</h1>
+        <h3>Integrando HTML e JS</h3>
+        <br><br><h5>Digite um valor numérico em cada campo:</h5>
+        <form id="form-valores">
+            <input type="number" id="ValorA" required placeholder="Campo A" />
+            <input type="number" id="ValorB" required placeholder="Campo B" />
+            <button id="btn-enviar" type="submit">Enviar</button>
         </form>
         <p class="success-message"></p>
+        <p class ="error-message"></p>
     </div>
     <script src="./main.js"></script>
 </body>

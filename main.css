@@ -9,25 +9,27 @@ body {
 }
 
 .container {
-    margin: 80px auto;
-    max-width: 640px;
+    margin: 50px auto;
+    max-width: 300px;
     width: 100%;
 }
 
 form {
-    margin-top: 40px;
+    margin-top: 15px;
+    display: flex;
+    grid-column-gap: 3px;
 }
 
-input, textarea, button {
+input, button {
     display: block;
     padding: 8px;
     margin-bottom: 8px;
-    width: 100%;
+    width: 50%;
     resize: none;
 }
 
 button {
-    background-color: #2ecc71;
+    background-color: #6b2ecc;
     border: none;
     text-transform: uppercase;
     color: #fff;
@@ -38,18 +40,18 @@ button {
 }
 
 button:hover {
-    background-color: #27ae60;
+    background-color: #fcbb09;
 }
 
 .success-message {
-    background-color: #27ae60;
+    background-color: #011491;
     padding: 16px;
     color: #fff;
     display: none;
 }
 
 .error-message {
-    font-size: 12px;
+    
     padding: 8px;
     background-color: red;
     color: #fff;
